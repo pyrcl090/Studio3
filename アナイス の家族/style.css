@@ -1,0 +1,86 @@
+body{
+    font-family: 'Kiwi Maru', serif;
+    background-color: rgb(228, 227, 226);
+}
+.container{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: 10%;
+    font-size: 1.4em;
+    padding-bottom: 2%;
+}
+
+.famille{
+    text-orientation: upright;
+    font-size: 4em;
+    position: fixed;
+    top: 440px;
+    left: 0px;
+    transform: rotate(-20deg);
+    writing-mode: vertical-rl; 
+    -webkit-text-stroke: 2px blue;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.photo-container{
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    display: none;
+}
+.photos{
+    display: inline;
+}
+.rigolo{
+    padding: 5%;
+}
+
+.directions{
+    position: fixed;
+    color: white;
+    font-size: 1.7em;
+    padding: 2%;
+    line-height: 90%;
+    top: 160px;
+    right: 10%;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    transform: rotate(25deg);
+    border-radius: 50%;
+
+}
+
+.cache{
+    display: none;
+}
+.cache.active{
+    display: inline-block;
+}
+
+.intro{
+    height: 40%;
+    
+}
+
+span{
+    color: blue;
+}
+
+img{
+    height: 200px;
+    width:auto;
+    right: 10%;
+}
+
+.moi{
+    
+    position: fixed;
+    top: 280px;
+    right: 0px;
+    transform: rotate(20deg);
+   
+}
