@@ -1,0 +1,122 @@
+
+
+body{
+    /* font-family:"Arial MS"; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    font-size: 2.5em;
+}
+
+.float{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    font-size: .5em;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    text-align: right;
+    color:rgb(0, 102, 255);
+    mix-blend-mode: multiply;
+}
+
+a{
+    color:rgb(0, 102, 255);  
+}
+
+.objects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.floor{
+    
+}
+.floor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img.view{
+    width: 40%;
+    height: auto;
+    padding: 1%;
+}
+
+img.pics{
+    width: auto;
+    height: 200px;
+    padding: 1%;
+}
+
+.intro{
+    text-align: left;
+}
+
+.name{
+    text-align: right;
+}
+
+.right{
+    text-align: right;
+}
+
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 2%;
+}
+
+.grey{
+    background-color: rgb(230, 230, 231) ;
+}
+.blue{
+    background-color: rgb(0, 102, 255);
+}
+.black{
+    background-color: black;
+}
+.lavender{
+    background-color: rgb(169, 169, 238);
+}
+.yellow{
+    background-color: rgb(248, 248, 107);
+}
+.green{
+    background-color: rgb(212, 235, 165);
+}
+.red{
+    background-color: red;
+}
+
+.poster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post_card{
+    width: 50%;
+    height: auto;
+}
+
+.pooster{
+    width: 20%;
+    height: auto;
+}
+
