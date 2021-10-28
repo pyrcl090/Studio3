@@ -1,0 +1,57 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: black;
+}
+
+.title{
+    position: fixed;
+    top: 2.8%;
+    margin-left: 2%;
+    display: flex;
+}
+.space{
+    position: relative;
+    left: 2%;
+    height: 30px;
+    width: 100px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+}
+.think2.active{
+    display: block;
+}
+.think1.inactive{
+    display: none;
+}
+.off{
+    display: none;
+}
+img.smallimg{
+    position: fixed;
+    top: 0%;
+    right: 3%;
+    height: 150px;
+    width: auto;  
+}
+.twosp{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 43%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    filter: drop-shadow(0 0 0.7rem rgb(68, 80, 248));
+    color: rgb(68, 80, 248);
+}
+.pos{
+    padding: 10%;
+}
+

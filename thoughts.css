@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background: url(./main/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#text1{
+    cursor:-webkit-grab;
+    position: absolute;
+    top:25%;
+    left:35%;
+    width:350px;
+    height: 100px;
+}
+
+#text2{
+    cursor:-webkit-grab;
+    position: absolute;
+    top:20%;
+    left:50%;
+    width:150px;
+    height: 40px;
+}
+#text3{
+    cursor:-webkit-grab;
+    position: absolute;
+    top:35%;
+    left:25%;
+    width:300px;
+    height: 30px;
+}
+
+#text4{
+    cursor:-webkit-grab;
+    position: absolute;
+    top:55%;
+    left:50%;
+    width:200px;
+    height: 30px;
+}
+#text5{
+    cursor:-webkit-grab;
+    position: absolute;
+    top:35%;
+    left:39%;
+    width:150px;
+    height: 30px;
+}
+
+.organize{
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0 0 0.7rem rgb(68, 80, 248));
+    color: rgb(68, 80, 248);
+    margin-top: 3%;
+}
+.thought{
+    color: rgb(68, 80, 248);
+    font-size: .5em;
+    text-align: right;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.home{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+}
+
+
+
