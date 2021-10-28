@@ -1,0 +1,108 @@
+@font-face{
+    font-family:"Terminal Grotesque";
+    src:url("terminal-grotesque.ttf") format("truetype");
+}
+@font-face{
+    font-family:"Terminal GrotesqueOpen";
+    src:url("terminal-grotesque_open.otf") format("opentype");
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:grey;
+    font-family:"Arial";
+}
+
+.back{
+    position: fixed;
+    bottom: 0%;
+    z-index: 6;
+    padding-left: 1%;
+}
+
+p{
+    color:whitesmoke;
+    font-size: 2em;
+    text-align: center;
+}
+
+.agh{
+    display: flex;
+    padding-left: 1%;
+    
+}
+
+.work_text{
+    position: fixed;
+    z-index: 5;
+    padding-left: 1%;
+}
+.relax_text{
+    position: fixed;
+    z-index: 5;
+    bottom: 0%;
+    right: 0%;
+    color: whitesmoke;
+    padding-right: 1%;
+}
+
+a{
+    -webkit-text-stroke: .4px whitesmoke;
+    -webkit-text-fill-color:transparent;
+}
+
+img{
+    height: 100vh;
+    width: 5%;
+    transform: rotateY(45deg);
+}
+
+img.work{
+
+}
+
+img.transition{
+    filter: blur(1px);
+    
+}
+
+img.relax{
+    filter: blur(3px);
+}
+
+img.work:hover{
+    height: 100vh;
+    width: auto;
+    transform: rotateY(0deg);
+    position: fixed;
+    z-index: -3;
+   
+}
+
+img.transition:hover{
+    height: 100vh;
+    width: auto;
+    left: 30%;
+    transform: rotateY(0deg);
+    position: fixed;
+    z-index: -3;
+   
+}
+
+img.relax:hover{
+    height: 100vh;
+    width: auto;
+    right: 0%;
+    transform: rotateY(0deg);
+    position: fixed;
+    z-index: -3;
+    
+}
+
+
+
+
+
+
+
