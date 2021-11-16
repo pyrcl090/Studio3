@@ -50,8 +50,13 @@ p{
 }
 
 a{
-    -webkit-text-stroke: .4px whitesmoke;
-    -webkit-text-fill-color:transparent;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+    filter: drop-shadow(0 0 0.7rem whitesmoke);
 }
 
 img{
