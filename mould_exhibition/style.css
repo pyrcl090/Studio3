@@ -1,0 +1,160 @@
+
+
+
+body{
+    /* font-family:"Arial MS"; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 1.2em;
+    color: #068DFC;
+    height: 100%;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #068DFC; 
+    border-radius: 10px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #068DFC; 
+    border-radius: 10px;
+    outline: solid 1px;
+    background-color: transparent;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #068DFC; 
+  }
+
+.stuff{
+    position: fixed;
+    left: 20px;
+    top: 50px;
+    width: 15vw;
+    text-align: right;
+    scroll-snap-stop: always;
+    box-shadow: inset 0 0 5px #068DFC;
+    border-radius: 20px;
+    padding: 2%;
+}
+.aa{
+    box-shadow: inset 0 0 50px #068DFC;
+    border-radius: 30px;
+}
+
+.logo{
+    width: 30vw;
+    right: 150px;
+    top: 10px;
+    position: fixed;
+    scroll-snap-stop: always;  
+}
+iframe{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+p{
+   font-size: .7em; 
+   padding: 2%;  
+}
+a{
+   color:  #068DFC;
+}
+a.blink{
+    animation: clignote 4s infinite;
+}
+a.blink:hover{
+    animation: none;
+}
+span{
+    -webkit-text-stroke: .8px #068DFC;
+    -webkit-text-fill-color: transparent;
+   
+}
+.detail{
+    box-shadow: inset 0 0 5px #068DFC;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 0%;
+}
+.contents{
+    position: absolute;
+    margin-left: 20vw;
+    padding: 5%;
+    scroll-snap-stop: always;
+    
+}
+img{
+    width: 60vw;
+}
+
+img.sml{
+    width: 30vw; 
+}
+img.vsml{
+    width: 7vw; 
+    margin: 2%;
+}
+img.vsml:hover{
+    width: 10vw;
+    box-shadow: inset 0 0 5px #068DFC;
+    border-radius: 20px; 
+}
+p.subtext{
+    font-size: .3em;
+    text-align: center;
+}
+.objects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    padding: 1%;
+    box-shadow: inset 0 0 5px #068DFC;
+    border-radius: 20px; 
+     
+}
+.color{
+    background-color:#068DFC ;
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+    margin: 0%;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+.color2{
+    background-color: #e6e6e6;
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 30px;
+}
+.colors{
+    display: flex;
+}
+@keyframes clignote {
+    0% {opacity: 0}
+    
+    50% {opacity: 1}
+    
+    100% {opacity: 0}
+}
+  
+
+
